@@ -22,7 +22,7 @@ class MainView extends Component {
   render() {
     const { mode } = this.state;
     return (
-      <div className="Main-view">
+      <div className="main-view">
         <Gallery images={this.renderImages(mode)} />
       </div>
     );
