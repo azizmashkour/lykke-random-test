@@ -1,0 +1,718 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render mainview component tests has one instance of main view 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MainView
+    renderImages={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Gallery
+        backdropClosesModal={false}
+        currentImage={0}
+        enableImageSelection={true}
+        enableKeyboardInput={true}
+        enableLightbox={true}
+        id="ReactGridGallery"
+        imageCountSeparator=" of "
+        images={
+          Array [
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "leaves",
+              "src": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Leaves",
+                  "value": "Leaves",
+                },
+              ],
+              "thumbnail": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+              "thumbnailHeight": 174,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "ocean",
+              "src": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Ocean",
+                  "value": "Ocean",
+                },
+              ],
+              "thumbnail": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "pensils",
+              "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Pencils",
+                  "value": "Pensils",
+                },
+              ],
+              "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "building",
+              "src": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Building",
+                  "value": "Building",
+                },
+              ],
+              "thumbnail": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "building",
+              "src": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Building",
+                  "value": "Building",
+                },
+              ],
+              "thumbnail": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+              "thumbnailHeight": 312,
+              "thumbnailWidth": 620,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "forest",
+              "src": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Forest",
+                  "value": "Forest",
+                },
+              ],
+              "thumbnail": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 520,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "forest",
+              "src": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Forest",
+                  "value": "Forest",
+                },
+              ],
+              "thumbnail": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "leaves",
+              "src": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Leaves",
+                  "value": "Leaves",
+                },
+              ],
+              "thumbnail": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "clock",
+              "src": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Clok",
+                  "value": "Clock",
+                },
+              ],
+              "thumbnail": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "ship",
+              "src": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Ship",
+                  "value": "Ship",
+                },
+              ],
+              "thumbnail": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 400,
+            },
+          ]
+        }
+        isOpen={false}
+        lightboxWidth={1024}
+        margin={2}
+        preloadNextImage={true}
+        rowHeight={180}
+        showCloseButton={true}
+        showImageCount={true}
+        showLightboxThumbnails={false}
+      />,
+      "className": "main-view",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "backdropClosesModal": false,
+        "currentImage": 0,
+        "enableImageSelection": true,
+        "enableKeyboardInput": true,
+        "enableLightbox": true,
+        "id": "ReactGridGallery",
+        "imageCountSeparator": " of ",
+        "images": Array [
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "leaves",
+            "src": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Leaves",
+                "value": "Leaves",
+              },
+            ],
+            "thumbnail": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+            "thumbnailHeight": 174,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "ocean",
+            "src": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Ocean",
+                "value": "Ocean",
+              },
+            ],
+            "thumbnail": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+            "thumbnailHeight": 212,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "pensils",
+            "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Pencils",
+                "value": "Pensils",
+              },
+            ],
+            "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+            "thumbnailHeight": 212,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "building",
+            "src": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Building",
+                "value": "Building",
+              },
+            ],
+            "thumbnail": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+            "thumbnailHeight": 212,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "building",
+            "src": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+            "tags": Array [
+              Object {
+                "title": "Building",
+                "value": "Building",
+              },
+            ],
+            "thumbnail": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+            "thumbnailHeight": 312,
+            "thumbnailWidth": 620,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "forest",
+            "src": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+            "tags": Array [
+              Object {
+                "title": "Forest",
+                "value": "Forest",
+              },
+            ],
+            "thumbnail": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+            "thumbnailHeight": 212,
+            "thumbnailWidth": 520,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "forest",
+            "src": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+            "tags": Array [
+              Object {
+                "title": "Forest",
+                "value": "Forest",
+              },
+            ],
+            "thumbnail": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+            "thumbnailHeight": 252,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "leaves",
+            "src": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Leaves",
+                "value": "Leaves",
+              },
+            ],
+            "thumbnail": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+            "thumbnailHeight": 252,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "clock",
+            "src": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Clok",
+                "value": "Clock",
+              },
+            ],
+            "thumbnail": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+            "thumbnailHeight": 252,
+            "thumbnailWidth": 320,
+          },
+          Object {
+            "caption": "Picture by John Doe",
+            "kind": "ship",
+            "src": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+            "tags": Array [
+              Object {
+                "title": "Ship",
+                "value": "Ship",
+              },
+            ],
+            "thumbnail": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+            "thumbnailHeight": 252,
+            "thumbnailWidth": 400,
+          },
+        ],
+        "isOpen": false,
+        "lightboxWidth": 1024,
+        "margin": 2,
+        "preloadNextImage": true,
+        "rowHeight": 180,
+        "showCloseButton": true,
+        "showImageCount": true,
+        "showLightboxThumbnails": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Gallery
+          backdropClosesModal={false}
+          currentImage={0}
+          enableImageSelection={true}
+          enableKeyboardInput={true}
+          enableLightbox={true}
+          id="ReactGridGallery"
+          imageCountSeparator=" of "
+          images={
+            Array [
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "leaves",
+                "src": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Leaves",
+                    "value": "Leaves",
+                  },
+                ],
+                "thumbnail": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+                "thumbnailHeight": 174,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "ocean",
+                "src": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Ocean",
+                    "value": "Ocean",
+                  },
+                ],
+                "thumbnail": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+                "thumbnailHeight": 212,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "pensils",
+                "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Pencils",
+                    "value": "Pensils",
+                  },
+                ],
+                "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+                "thumbnailHeight": 212,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "building",
+                "src": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Building",
+                    "value": "Building",
+                  },
+                ],
+                "thumbnail": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+                "thumbnailHeight": 212,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "building",
+                "src": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Building",
+                    "value": "Building",
+                  },
+                ],
+                "thumbnail": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+                "thumbnailHeight": 312,
+                "thumbnailWidth": 620,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "forest",
+                "src": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Forest",
+                    "value": "Forest",
+                  },
+                ],
+                "thumbnail": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+                "thumbnailHeight": 212,
+                "thumbnailWidth": 520,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "forest",
+                "src": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Forest",
+                    "value": "Forest",
+                  },
+                ],
+                "thumbnail": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+                "thumbnailHeight": 252,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "leaves",
+                "src": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Leaves",
+                    "value": "Leaves",
+                  },
+                ],
+                "thumbnail": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+                "thumbnailHeight": 252,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "clock",
+                "src": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Clok",
+                    "value": "Clock",
+                  },
+                ],
+                "thumbnail": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+                "thumbnailHeight": 252,
+                "thumbnailWidth": 320,
+              },
+              Object {
+                "caption": "Picture by John Doe",
+                "kind": "ship",
+                "src": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+                "tags": Array [
+                  Object {
+                    "title": "Ship",
+                    "value": "Ship",
+                  },
+                ],
+                "thumbnail": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+                "thumbnailHeight": 252,
+                "thumbnailWidth": 400,
+              },
+            ]
+          }
+          isOpen={false}
+          lightboxWidth={1024}
+          margin={2}
+          preloadNextImage={true}
+          rowHeight={180}
+          showCloseButton={true}
+          showImageCount={true}
+          showLightboxThumbnails={false}
+        />,
+        "className": "main-view",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backdropClosesModal": false,
+          "currentImage": 0,
+          "enableImageSelection": true,
+          "enableKeyboardInput": true,
+          "enableLightbox": true,
+          "id": "ReactGridGallery",
+          "imageCountSeparator": " of ",
+          "images": Array [
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "leaves",
+              "src": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Leaves",
+                  "value": "Leaves",
+                },
+              ],
+              "thumbnail": "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+              "thumbnailHeight": 174,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "ocean",
+              "src": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Ocean",
+                  "value": "Ocean",
+                },
+              ],
+              "thumbnail": "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "pensils",
+              "src": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Pencils",
+                  "value": "Pensils",
+                },
+              ],
+              "thumbnail": "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "building",
+              "src": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Building",
+                  "value": "Building",
+                },
+              ],
+              "thumbnail": "https://c6.staticflickr.com/9/8520/28357073053_cafcb3da6f_b.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "building",
+              "src": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Building",
+                  "value": "Building",
+                },
+              ],
+              "thumbnail": "https://c7.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
+              "thumbnailHeight": 312,
+              "thumbnailWidth": 620,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "forest",
+              "src": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Forest",
+                  "value": "Forest",
+                },
+              ],
+              "thumbnail": "https://c6.staticflickr.com/9/8890/28897154101_a8f55be225_n.jpg",
+              "thumbnailHeight": 212,
+              "thumbnailWidth": 520,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "forest",
+              "src": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Forest",
+                  "value": "Forest",
+                },
+              ],
+              "thumbnail": "https://c5.staticflickr.com/9/8768/28941110956_b05ab588c1_n.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "leaves",
+              "src": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Leaves",
+                  "value": "Leaves",
+                },
+              ],
+              "thumbnail": "https://c1.staticflickr.com/9/8056/28354485944_148d6a5fc1_b.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "clock",
+              "src": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Clok",
+                  "value": "Clock",
+                },
+              ],
+              "thumbnail": "https://c2.staticflickr.com/9/8239/28897202241_1497bec71a_b.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 320,
+            },
+            Object {
+              "caption": "Picture by John Doe",
+              "kind": "ship",
+              "src": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+              "tags": Array [
+                Object {
+                  "title": "Ship",
+                  "value": "Ship",
+                },
+              ],
+              "thumbnail": "https://c4.staticflickr.com/9/8578/28357117603_97a8233cf5_b.jpg",
+              "thumbnailHeight": 252,
+              "thumbnailWidth": 400,
+            },
+          ],
+          "isOpen": false,
+          "lightboxWidth": 1024,
+          "margin": 2,
+          "preloadNextImage": true,
+          "rowHeight": 180,
+          "showCloseButton": true,
+          "showImageCount": true,
+          "showLightboxThumbnails": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
