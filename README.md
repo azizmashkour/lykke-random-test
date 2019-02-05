@@ -4,7 +4,7 @@ The React App allows the user to run a image search and present found images acc
 
 This Project was created using [React Js](http://reactjs.org)
 
-![image](https://github.com/azizmashkour/lykke-random/blob/16/master/public/preview.png)
+![image](https://github.com/azizmashkour/lykke-random/blob/master/public/preview.png)
 
 ## Quick Start
 
