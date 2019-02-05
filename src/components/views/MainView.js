@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Qs from 'qs';
 import Gallery from 'react-grid-gallery';
 import images from '../common/gallery';
 
-const MainView = () => (
-  <div className="Main-view">
-    <h2>This is our Main View Component</h2>
-    <Gallery images={images} />
-  </div>
-);
+class MainView extends Component {
+  constructor(props) {
+    super(props);
+    const {
+      mode = 'default',
+    } = Qs.parse(window.location.search, { ignoreQueryPrefix: true });
+    this.state = { mode };
+  }
+
+  renderImages = (mode) => {
+    if (mode === 'default') {
+      return images;
+    }
+    return images.filter(image => image.kind === mode);
+  }
+
+  render() {
+    const { mode } = this.state;
+    return (
+      <div className="Main-view">
+        <Gallery images={this.renderImages(mode)} />
+      </div>
+    );
+  }
+}
 
 export default MainView;
