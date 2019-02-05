@@ -4,7 +4,7 @@ import MainView from './views/MainView';
 import './App.css';
 
 const App = () => (
-  <div className="App">
+  <div className="app">
     <Header />
     <MainView />
   </div>
