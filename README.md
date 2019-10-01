@@ -1,6 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ![image](https://github.com/azizmashkour/lykke-random/blob/master/public/preview.png)
 
+# Lykke Gallery
+
+The React App allows the user to run a image search and present found images according to the image list.
+
+This Project was created using [React Js](http://reactjs.org)
+
+
 ## Quick Start
 
 1- Clone this repository by downloading directly or running this command:
