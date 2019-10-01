@@ -1,4 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/azizmashkour/lykke-random/blob/master/public/preview.png)
+
+## Quick Start
+
+1- Clone this repository by downloading directly or running this command:
+
+```
+git clone git@github.com:azizmashkour/lykke-random.git
+```
+
+2- Install dependencies by running `yarn` or `npm install` from the project directory to install all dependencies. In case your don't have them installed, go
+[here](https://changelog.com/posts/install-node-js-with-homebrew-on-os-x) and install them.
+
 
 ## Available Scripts
 
