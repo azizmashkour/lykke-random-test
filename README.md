@@ -1,20 +1,22 @@
-# Lykke Gallery
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The React App allows the user to run a image search and present found images according to the image list.
+## Available Scripts
 
-This Project was created using [React Js](http://reactjs.org)
+1- Make sure you have Docker installed on your machine.
 
-![image](https://github.com/azizmashkour/lykke-random/blob/master/public/preview.png)
+2- In the project directory, run the command bellow: `docker image build -t react:app .`
 
-## Quick Start
+3- Once completed, run this: `docker container run -it -p 3000:3000 react:app` and you're done.
 
-1- Clone this repository by downloading directly or running this command:
 
-```
-git clone git@github.com:azizmashkour/lykke-random.git
-```
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-2- Install dependencies by running `yarn` or `npm install` from the project directory to install all dependencies. In case your don't have them installed, go
-[here](https://changelog.com/posts/install-node-js-with-homebrew-on-os-x) and install them.
 
-3- Navigate to the cloned or forked project directory using the command line, type `yarn start` or `npm start` and the project will automatically run on `localhost:3000`.
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
