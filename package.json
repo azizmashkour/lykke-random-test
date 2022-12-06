@@ -7,7 +7,7 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.9.0",
     "eslint-config-airbnb": "^17.1.0",
-    "qs": "^6.6.0",
+    "qs": "^6.6.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-grid-gallery": "^0.5.3",
